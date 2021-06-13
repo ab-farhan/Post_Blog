@@ -1,0 +1,48 @@
+p{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+.nav-link.active{
+    background: #dc3545 !important;
+}
+.has-error input,
+.has-error select,
+.has-error textarea {
+    color: red;
+    border: 1.5px solid red !important;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+.pagination{
+    margin-bottom: 0px;
+}
+
+#toast-container{
+    padding: 20px 30px !important;
+}
+.tostStyle{
+    opacity: 1 !important;
+    
+}
+table.view_table tr td:first-child{
+    width: 25%;
+    font-weight: bold;
+    text-align: right;
+}
+table.view_table tr td:last-child{
+    width: 73%;
+}
+a.logout{
+    transition:all linear .2s;
+}
+a.logout:hover{
+    background: #dc3545!important;
+    color: #fff !important;
+}
